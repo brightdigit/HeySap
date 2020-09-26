@@ -1,7 +1,7 @@
 import XCTest
-
-import hey_sapTests
+import HeySapTests
 
 var tests = [XCTestCaseEntry]()
-tests += hey_sapTests.allTests()
+tests += HeySapTests.__allTests()
+
 XCTMain(tests)

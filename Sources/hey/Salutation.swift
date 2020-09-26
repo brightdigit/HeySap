@@ -1,7 +1,7 @@
 /**
  Different salutations to say Hey! or Hello! with.
  */
-enum Salutation: String {
+public enum Salutation: String {
   /**
    Hey
    */

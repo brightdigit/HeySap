@@ -14,7 +14,7 @@ jobs:
     strategy:
       matrix:
         architecture:  [aarch64]
-        distribution: [ubuntu16.04,ubuntu18.04,ubuntu20.04]
+        distribution: [ubuntu18.04,ubuntu20.04]
     steps:
     - uses: actions/checkout@v2
     - name: Build with Swift on arm

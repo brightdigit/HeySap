@@ -1,7 +1,9 @@
+import ArgumentParser
+
 /**
  Different salutations to say Hey! or Hello! with.
  */
-public enum Salutation: String {
+public enum Salutation: String, ExpressibleByArgument {
   /**
    Hey
    */

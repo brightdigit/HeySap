@@ -11,7 +11,9 @@ struct Hey: ParsableCommand {
   var name: String = "Sap"
 
   func run() throws {
-    print("\(salutation.rawValue.capitalizingFirstLetter()) \(name)", terminator: verbose ? "" : "!\n")
+    print(
+      "\(salutation.rawValue.capitalizingFirstLetter()) \(name)",
+      terminator: verbose ? "" : "!\n")
     if verbose {
       print(", How's Your Day?")
     }

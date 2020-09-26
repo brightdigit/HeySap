@@ -13,7 +13,8 @@ struct Hey: ParsableCommand {
   func run() throws {
     print(
       "\(salutation.rawValue.capitalizingFirstLetter()) \(name)",
-      terminator: verbose ? "" : "!\n")
+      terminator: verbose ? "" : "!\n"
+    )
     if verbose {
       print(", How's Your Day?")
     }

@@ -31,6 +31,7 @@ public enum Salutation: String, ExpressibleByArgument {
   /**
    Hi
    */
+  // swiftlint:disable:next identifier_name
   case hi
   /**
    Howdy

@@ -22,8 +22,8 @@ jobs:
       env:
          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
       with:
-        architecture: ${{ matrix.architecture }}
-        distribution: ${{ matrix.distribution }}
+        arch: ${{ matrix.architecture }}
+        distro: ${{ matrix.distribution }}
         run: |
           export DEBIAN_FRONTEND=noninteractive
           ln -fs /usr/share/zoneinfo/America/New_York /etc/localtime

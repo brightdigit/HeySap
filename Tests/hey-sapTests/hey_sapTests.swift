@@ -12,7 +12,7 @@ final class hey_sapTests: XCTestCase {
       return
     }
 
-    let fooBinary = productsDirectory.appendingPathComponent("hey-sap")
+    let fooBinary = productsDirectory.appendingPathComponent("hey")
 
     let process = Process()
     process.executableURL = fooBinary
@@ -26,7 +26,7 @@ final class hey_sapTests: XCTestCase {
     let data = pipe.fileHandleForReading.readDataToEndOfFile()
     let output = String(data: data, encoding: .utf8)
 
-    XCTAssertEqual(output, "Hello, world!\n")
+    XCTAssertEqual(output, "Hey Sap!\n")
   }
 
   /// Returns path to the built products directory.

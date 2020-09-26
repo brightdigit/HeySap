@@ -1,6 +1,4 @@
-
-
-enum Salutation : String {
+enum Salutation: String {
   case hey
   case hello
   case greetings

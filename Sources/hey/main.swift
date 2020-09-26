@@ -21,7 +21,7 @@ struct Hey: ParsableCommand {
   var verbose = false
   
   @Option
-  var salutation = Salutation.hey
+  var salutation : Salutation = .hey
   
   @Argument
   var name : String = "Sap"

@@ -36,11 +36,7 @@ jobs:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
     - name: Build Documentation
       if: ${{ matrix.xcode == '/Applications/Xcode_12.app' }}
-<<<<<<< HEAD
-      run: mint run sourcedocs generate build -rc --spm-module hey
-=======
       run: mint run sourcedocs generate build -cr --spm-module hey
->>>>>>> main
     - name: Commit files
       if: ${{ matrix.xcode == '/Applications/Xcode_12.app' }}
       run: |

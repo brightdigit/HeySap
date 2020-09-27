@@ -11,5 +11,8 @@ public extension String
 ```swift
 func capitalizingFirstLetter() -> String
 ```
+<<<<<<< HEAD
 
 Capitalizes the first character of a String.
+=======
+>>>>>>> main

@@ -2,7 +2,7 @@
 <p align="center">
     <img alt="HeySap" title="HeySap" src="Assets/logo.svg" height="200">
 </p>
-<h1 align="center"> HeySap </h1>
+<h1 align="center">HeySap</h1>
 
 Sample Command Line Tool using Swift Argument Parser
 
@@ -59,7 +59,7 @@ $ mint install brightdigit/HeySap
 
 # Usage 
 
-## Specifying Your Name via Arguments
+## Specifying Your Name via _Arguments_
 
 Swift Argument Parser will use the last `String` as the name argument for what to call you:
 
@@ -82,7 +82,7 @@ $ hey
 Hey Sap!
 ```
 
-## Changing Your Salutation Option
+## Changing Your Salutation _Option_
 
 You can choose from a variety of options for your salutation. Currently, **HeySap** supports:
 
@@ -122,7 +122,7 @@ Hey World!
 
 For more information on salutions, please refer to [the code documentation page here](Documentation/Reference/Salutation.md).
 
-## Flagging for More Verbose Greetings
+## _Flags_ for More Verbose Greetings
 
 If you wish _HeySap_ to offer a more verbose greeeting, simply use the flag `--verbose`. With the `--verbose` flag, you will receive an extended `How's your day?`:
 
@@ -137,6 +137,11 @@ By combining all these components, you can build something like this:
 $ hey Maximiliano --salutation=buongiorno --verbose
 Buongiorno Maximiliano, How's Your Day?
 ```
+
+# Support 
+
+If you have any questions or issues with the application, feel free to post [an issue here.](issues) 
+
 # License 
 
 This code is distributed under the MIT license. See the [LICENSE](LICENSE) file for more info.

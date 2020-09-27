@@ -14,8 +14,8 @@ Sample Command Line Tool using Swift Argument Parser
 [![macOS](https://github.com/brightdigit/HeySap/workflows/macOS/badge.svg)](https://github.com/brightdigit/HeySap/actions?query=workflow%3AmacOS)
 [![ubuntu](https://github.com/brightdigit/HeySap/workflows/ubuntu/badge.svg)](https://github.com/brightdigit/HeySap/actions?query=workflow%3Aubuntu)
 [![Travis (.com)](https://img.shields.io/travis/com/brightdigit/HeySap?logo=travis&?label=travis-ci)](https://travis-ci.com/brightdigit/HeySap)
-[![Bitrise](https://img.shields.io/bitrise/b2595eab70c25d1b?logo=bitrise&?label=bitrise&token=rHUhEUFkU2RUL-KGmrKX1Q)](https://app.bitrise.io/app/b2595eab70c25d1b)
-[![CircleCI](https://img.shields.io/circleci/build/github/brightdigit/HeySap?logo=circleci&?label=circle-ci&token=45c9ff6a86f9ac6c1ec8c85c3bc02f4d8859aa6b)](https://app.circleci.com/pipelines/github/brightdigit/HeySap)
+[![Bitrise](https://img.shields.io/bitrise/851943f7407ad016?logo=bitrise&?label=bitrise&token=jJAyoyJ-teNSI-9aDqJKSw)](https://app.bitrise.io/app/851943f7407ad016)
+[![CircleCI](https://img.shields.io/circleci/build/github/brightdigit/HeySap?logo=circleci&?label=circle-ci&token=ee241fe22c5f6330a56357965bc13dbf2bcafc63)](https://app.circleci.com/pipelines/github/brightdigit/HeySap)
 
 [![Codecov](https://img.shields.io/codecov/c/github/brightdigit/HeySap)](https://codecov.io/gh/brightdigit/HeySap)
 [![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/brightdigit/HeySap)](https://www.codefactor.io/repository/github/brightdigit/HeySap)

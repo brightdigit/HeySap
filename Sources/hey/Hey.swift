@@ -2,11 +2,11 @@ import ArgumentParser
 
 struct Hey: ParsableCommand {
   @Argument
-  var name: String // = "Sap"
+  var name = "Sap"
 
   func run() throws {
     print(
-      "Hey \(name)"
+      "Hey \(name)!"
     )
   }
 }

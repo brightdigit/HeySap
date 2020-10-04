@@ -1,7 +1,9 @@
+import ArgumentParser
+
 /**
  Different salutations to say Hey! or Hello! with.
  */
-public enum Salutation: String {
+public enum Salutation: String, ExpressibleByArgument {
   /**
    Hey
    */
@@ -29,6 +31,7 @@ public enum Salutation: String {
   /**
    Hi
    */
+  // swiftlint:disable:next identifier_name
   case hi
   /**
    Howdy

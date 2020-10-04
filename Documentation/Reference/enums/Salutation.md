@@ -3,7 +3,7 @@
 # `Salutation`
 
 ```swift
-public enum Salutation: String
+public enum Salutation: String, ExpressibleByArgument
 ```
 
 Different salutations to say Hey! or Hello! with.
